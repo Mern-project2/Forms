@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo Form</title>
+    </head>
+<body>
+    <h1>FORM</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" 
+        placeholder="Enter your Name"
+        id="name"
+        name="name"
+        pattern="/^[a-z ,.'-]+$/i"
+        required>
+        <br><br>
+        <label for="yearofpassig">Year of passing</label><br>
+        <input type="radio" id="year" name="year" value="yearofpassing">
+        <label for="year">2024</label><br>
+        <input type="radio" id="year" name="year" value="yearofpassing">
+        <label for="year">2025</label><br><br>
+        <label for="languagesknown">Languages Known</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="tamil">
+        <label for="vehicle1">tamil</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="english">
+        <label for="vehicle2">English</label><br>
+        <label for="aadharno">Aadhar number</label>
+        <input type="text" 
+        placeholder="enter the Aadhar number"
+        id="aadharno"
+        name="aadharno"
+        pattern="(?=.*[0-9]){12}"
+        required>
+        
+        <br><br>
+        <label for="no">phone number</label>
+        <input type="text" 
+        placeholder="enter the phone number"
+        id="no"
+        name="no"
+        pattern="[6-9]{10}"
+        required>
+        
+        <br><br>
+        <label for="email-id">EMAIL</label>
+        <input type="text" 
+        placeholder="enter the email"
+        id="email-id"
+        name="email-id"
+        pattern="[a-z][0-9]+@+[a-z]"
+        required>
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date" 
+        placeholder="enter the password"
+        id="dob"
+        name="dob"
+        required>
+        <br><br>
+        <button class="button">REGISTER</button>        
+    </form>
+</body>
+</html>
