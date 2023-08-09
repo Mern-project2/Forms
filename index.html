@@ -1,20 +1,21 @@
 <html>
     <head>
         <title>Demo Form</title>
-        <link rel="stylesheet" href="assests/CSS/style.css">
+        <link rel="stylesheet" href="assests/CSS/style.css"/>
     </head>
     
 
 <body>
-    <h1>BANK REGISTRATION FORM</h1>
+    <h1>BANK registration form</h1>
     <form>
-        <label for="name">NAME</label>
+        <label for="name">NAME N</label>
         <input type="text" 
         placeholder="Enter your Name"
         id="name"
         name="name"
         pattern="/^[a-z ,.'-]+$/i"
-        required>
+        required
+        />
         <br><br>
         <label for="fname">FATHER'S NAME</label>
         <input type="text" 
@@ -22,7 +23,8 @@
         id="fname"
         name="fname"
         pattern="/^[a-z ,.'-]+$/i"
-        required>
+        required
+        />
         <br><br>
         <label for="mname">MOTHER'S NAME</label>
         <input type="text" 
@@ -30,7 +32,8 @@
         id="mname"
         name="mname"
         pattern="/^[a-z ,.'-]+$/i"
-        required>
+        required
+        />
         <br><br>
         <label for="aadharno">Aadhar number</label>
         <input type="text" 
@@ -38,7 +41,8 @@
         id="aadharno"
         name="aadharno"
         pattern="(?=.*[0-9]){12}"
-        required>
+        required
+        />
         <br><br>
         <label for="no">phone number</label>
         <input type="text" 
@@ -66,6 +70,12 @@
         required
         />
         <br><br>
+        <label for="gender">GENDER</label><br>
+        
+        <input type="radio" name="male">Male<br>
+        <input type="radio" name="male">Female<br>
+       
+        
         <button class="button">REGISTER</button>        
     </form>
 </body>
